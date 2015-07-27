@@ -1,9 +1,8 @@
-# Pure
-# by Sindre Sorhus
+# Purish
+# by Danilo Barboza
+# A fork of the Pure theme by Sindre Sorhus
 # https://github.com/sindresorhus/pure
 # MIT License
-
-# Custom modifications by Danilo Barboza
 
 # For my own and others sanity
 # git:
@@ -18,6 +17,8 @@
 # %m => shortname host
 # %(?..) => prompt conditional - %(condition.true.false)
 
+#Use LSCOLORS from yadr (http://skwp.github.io/dotfiles/)
+LSCOLORS=exfxcxdxbxGxDxabagacad
 
 function my_git_prompt_info() {
   if [[ "$(command git config --get oh-my-zsh.hide-status 2>/dev/null)" != "1" ]]; then
