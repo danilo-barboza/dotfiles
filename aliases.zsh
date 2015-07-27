@@ -11,3 +11,6 @@ alias gplr='git pull --rebase'
 alias gps='git push'
 alias ga='git add -A'
 alias gcm='git commit -m'
+
+#fasd
+alias z='fasd_cd -d'
