@@ -23,7 +23,7 @@ function my_git_prompt_info() {
   if [[ "$(command git config --get oh-my-zsh.hide-status 2>/dev/null)" != "1" ]]; then
     ref=$(command git symbolic-ref HEAD 2> /dev/null) || \
     ref=$(command git rev-parse --short HEAD 2> /dev/null) || return 0
-    echo "$ZSH_THEME_GIT_PROMPT_PREFIX${ref#refs/heads/}$(git_prompt_status)$ZSH_THEME_GIT_PROMPT_SUFFIX"
+    echo "(%F{cyan}${ref#refs/heads/}%f$(git_prompt_status))"
   fi
 }
 
@@ -72,9 +72,6 @@ prompt_pure_precmd() {
    setopt LOCAL_OPTIONS
 
    # git
-   ZSH_THEME_GIT_PROMPT_PREFIX="(%F{cyan}"
-   ZSH_THEME_GIT_PROMPT_SUFFIX=")"
-
    ZSH_THEME_GIT_PROMPT_ADDED="%F{green}●%f"
    ZSH_THEME_GIT_PROMPT_DELETED="%F{yellow}●%f"
    ZSH_THEME_GIT_PROMPT_MODIFIED="%F{red}●%f"
