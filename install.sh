@@ -6,7 +6,7 @@ set -o nounset
 readonly dir=~/.dotfiles # dotfiles directory
 
 # list of files/folders to symlink in homedir
-files="zshrc"
+files="zshrc slate"
 
 readonly bkp_dir=~/dotfiles_old       # old dotfiles backup directory
 echo "Creating $bkp_dir folder for backup of any existing dotfiles in home"
