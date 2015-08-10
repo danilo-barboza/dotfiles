@@ -41,6 +41,17 @@ function zsh-as-default() {
   fi
 }
 
+function install-zsh-syntax-highlighting() {
+  local ZSH_SYNTAX_PLUGIN="$dir/zsh-custom/plugins/zsh-syntax-highlighting"
+  if [[ ! -d $ZSH_SYNTAX_PLUGIN ]]; then
+    echo "Installing zsh-syntax-highlighting plugin..."
+    git clone git://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_SYNTAX_PLUGIN
+  else
+    echo "$ZSH_SYNTAX_PLUGIN already exists!"
+  fi
+}
+install-zsh-syntax-highlighting
+
 function oh-my-zsh-install() {
   local ZSH="$HOME/.oh-my-zsh"
   if [[ ! -d $ZSH ]]; then
