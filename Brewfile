@@ -1,6 +1,5 @@
 #general install
 install git
-install pygmentize
 install ssh-copy-id
 install the_silver_searcher
 install tig
@@ -11,10 +10,10 @@ install zsh
 install fasd
 install node
 
-
 #cask
 install caskroom/cask/brew-cask
 
+cask install java
 cask install iterm2
 cask install sublime-text
 cask install intellij-idea
@@ -30,5 +29,5 @@ cask install adium
 cask install goofy
 cask install hipchat
 cask install slack
-#cask install wunderlist
-#cask install telegram
+cask install virtualbox
+cask install vagrant
