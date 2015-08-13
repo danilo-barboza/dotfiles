@@ -31,3 +31,4 @@ cask install hipchat
 cask install slack
 cask install virtualbox
 cask install vagrant
+cask install rescuetime
