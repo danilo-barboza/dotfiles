@@ -29,19 +29,7 @@ function symlink_files() {
 # Install common dotfiles
 symlink_files $dir "$files" $bkp_dir
 
-function zsh-as-default() {
-  if grep -Fxq "$(which zsh)" /etc/shells
-  then
-    echo "ZSH ok"
-  else
-    echo "Warning: remember to change shell"
-    echo "echo \$(which zsh) | sudo tee -a /etc/shells"
-    echo "chsh -s \$(which zsh)"
-    echo "Remember to logout and login again"
-  fi
-}
-
-function install-zsh-syntax-highlighting() {
+function install_zsh_syntax_highlighting() {
   local ZSH_SYNTAX_PLUGIN="$dir/zsh-custom/plugins/zsh-syntax-highlighting"
   if [[ ! -d $ZSH_SYNTAX_PLUGIN ]]; then
     echo "Installing zsh-syntax-highlighting plugin..."
@@ -50,9 +38,9 @@ function install-zsh-syntax-highlighting() {
     echo "$ZSH_SYNTAX_PLUGIN already exists!"
   fi
 }
-install-zsh-syntax-highlighting
+install_zsh_syntax_highlighting
 
-function oh-my-zsh-install() {
+function oh_my_zsh_install() {
   local ZSH="$HOME/.oh-my-zsh"
   if [[ ! -d $ZSH ]]; then
     echo "Installing oh-my-zsh..."
@@ -62,9 +50,9 @@ function oh-my-zsh-install() {
     env ZSH=$ZSH /bin/sh $ZSH/tools/upgrade.sh
   fi
 }
-oh-my-zsh-install
+oh_my_zsh_install
 
-function zsh-as-default() {
+function zsh_as_default() {
   if grep -Fxq "$(which zsh)" /etc/shells
   then
     echo "ZSH ok"
@@ -75,4 +63,4 @@ function zsh-as-default() {
     echo "Remember to logout and login again"
   fi
 }
-zsh-as-default
+zsh_as_default
