@@ -15,4 +15,7 @@ while read -r line; do
   brew $line || true
 done <<< "$(grep -v '^$\|^\s*\#' Brewfile)"
 
+#Python pip
+pip install pygments
+
 exit 0

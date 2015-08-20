@@ -1,4 +1,5 @@
 #general install
+install zsh
 install git
 install ssh-copy-id
 install the_silver_searcher
@@ -6,9 +7,9 @@ install tig
 install groovy
 install tree
 install wget
-install zsh
 install fasd
 install node
+install python
 
 #cask
 install caskroom/cask/brew-cask
