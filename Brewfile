@@ -10,6 +10,7 @@ install wget
 install fasd
 install node
 install python
+install gradle
 
 #cask
 install caskroom/cask/brew-cask
