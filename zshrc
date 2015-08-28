@@ -15,4 +15,4 @@ plugins=(git fasd colored-man brew zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 source $DOTFILES/aliases.zsh
 
-export JAVA_HOME=`/usr/libexec/java_home`
+if which jenv > /dev/null; then eval "$(jenv init -)"; fi

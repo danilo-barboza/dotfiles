@@ -11,6 +11,7 @@ install fasd
 install node
 install python
 install gradle
+install jenv
 
 #cask
 install caskroom/cask/brew-cask
@@ -34,3 +35,4 @@ cask install slack
 cask install virtualbox
 cask install vagrant
 cask install rescuetime
+cask install spotify

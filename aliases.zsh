@@ -4,7 +4,7 @@ alias gdw='./gradlew'
 #git
 alias gsr='git svn rebase'
 alias gsd='git svn dcommit'
-alias gst='git stash'
+alias gst='git status'
 alias gsp='git stash pop'
 alias gpl='git pull'
 alias gplr='git pull --rebase'
