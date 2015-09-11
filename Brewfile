@@ -12,6 +12,8 @@ install node
 install python
 install gradle
 install jenv
+install docker
+install docker-machine
 
 #cask
 install caskroom/cask/brew-cask
