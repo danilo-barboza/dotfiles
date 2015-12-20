@@ -22,7 +22,7 @@ cask install java
 cask install iterm2
 cask install sublime-text
 cask install intellij-idea
-cask install quicksilver
+cask install alfred
 cask install dropbox
 cask install slate
 cask install evernote
