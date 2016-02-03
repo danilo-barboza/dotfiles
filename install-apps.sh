@@ -17,5 +17,6 @@ done <<< "$(grep -v '^$\|^\s*\#' Brewfile)"
 
 #Python pip
 pip install pygments
+pip install bpython
 
 exit 0

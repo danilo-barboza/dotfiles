@@ -38,3 +38,4 @@ cask install virtualbox
 cask install vagrant
 cask install rescuetime
 cask install spotify
+cask install telegram
