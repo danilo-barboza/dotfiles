@@ -15,6 +15,9 @@ install jenv
 install docker
 install docker-machine
 
+tap tldr-pages/tldr
+install tldr
+
 #cask
 install caskroom/cask/brew-cask
 
