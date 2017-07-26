@@ -14,6 +14,7 @@ install gradle
 install jenv
 install docker
 install docker-machine
+install hub
 
 tap tldr-pages/tldr
 install tldr

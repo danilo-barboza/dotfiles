@@ -12,5 +12,8 @@ alias gps='git push'
 alias ga='git add -A'
 alias gcm='git commit -m'
 
+#github
+alias cpr='hub pull-request'
+
 #fasd
 alias z='fasd_cd -d'
