@@ -15,6 +15,8 @@ install jenv
 install docker
 install docker-machine
 install hub
+install kubectl
+install kubectx --with-short-names
 
 tap tldr-pages/tldr
 install tldr

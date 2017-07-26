@@ -17,3 +17,6 @@ alias cpr='hub pull-request'
 
 #fasd
 alias z='fasd_cd -d'
+
+#k8s
+alias k='kubectl'
