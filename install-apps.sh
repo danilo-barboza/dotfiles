@@ -6,7 +6,7 @@ set -o errexit
 
 if test ! $(which brew); then
   echo "Installing homebrew..."
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
 while read -r line; do
@@ -14,9 +14,5 @@ while read -r line; do
   echo "~> Running brew $line"
   brew $line || true
 done <<< "$(grep -v '^$\|^\s*\#' Brewfile)"
-
-#Python pip
-pip install pygments
-pip install bpython
 
 exit 0

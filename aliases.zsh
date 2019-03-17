@@ -1,4 +1,3 @@
-alias ccat='pygmentize -g'
 alias gdw='./gradlew'
 
 #git

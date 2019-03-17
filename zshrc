@@ -16,3 +16,9 @@ source $ZSH/oh-my-zsh.sh
 source $DOTFILES/aliases.zsh
 
 if which jenv > /dev/null; then eval "$(jenv init -)"; fi
+
+alias kickoff-dev='~/kickoff-dev.sh -n dbarboza && source /tmp/hyper-vm.env'
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
