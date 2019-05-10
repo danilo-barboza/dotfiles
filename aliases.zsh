@@ -19,3 +19,5 @@ alias z='fasd_cd -d'
 
 #k8s
 alias k='kubectl'
+alias kctx='kubectx'
+alias kns='kubens'
