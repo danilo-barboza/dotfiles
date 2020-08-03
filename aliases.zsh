@@ -7,7 +7,7 @@ alias gst='git status'
 alias gsp='git stash pop'
 alias gpl='git pull'
 alias gplr='git pull --rebase'
-alias gps='git push'
+alias gps='git push -u'
 alias ga='git add -A'
 alias gcm='git commit -m'
 
