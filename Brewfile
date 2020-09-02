@@ -10,6 +10,7 @@ install fasd
 install node
 install python
 install gradle
+install maven
 install jenv
 install kubectl
 install kubectx --with-short-names
@@ -33,3 +34,4 @@ cask install rescuetime
 cask install spotify
 cask install telegram
 cask install docker
+cask install signal
