@@ -7,13 +7,8 @@ install tig
 install tree
 install wget
 install fasd
-install node
-install python
-install gradle
-install maven
-install jenv
 install kubectl
-install kubectx --with-short-names
+install kubectx
 install fzf
 install github/gh/gh
 
@@ -35,3 +30,5 @@ cask install spotify
 cask install telegram
 cask install docker
 cask install signal
+cask install browserosaurus
+cask install rectangle

@@ -70,3 +70,5 @@
   path = .gitconfig.user
 [push]
   default = simple
+[pull]
+  rebase = false
