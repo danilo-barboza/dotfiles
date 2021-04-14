@@ -13,22 +13,22 @@ install fzf
 install github/gh/gh
 
 #Casks
-cask install 1password
-cask install alfred
-cask install iterm2
-cask install visual-studio-code
-cask install java
-cask install intellij-idea-ce
-cask install dropbox
-cask install evernote
-cask install zappy
-cask install firefox
-cask install google-chrome
-cask install slack
-cask install rescuetime
-cask install spotify
-cask install telegram
-cask install docker
-cask install signal
-cask install browserosaurus
-cask install rectangle
+install 1password
+install alfred
+install iterm2
+install visual-studio-code
+install java
+install intellij-idea-ce
+install dropbox
+install evernote
+install zappy
+install firefox
+install google-chrome
+install slack
+install rescuetime
+install spotify
+install telegram
+install docker
+install signal
+install browserosaurus
+install rectangle
