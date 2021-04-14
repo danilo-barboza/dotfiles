@@ -13,7 +13,6 @@ install fzf
 install github/gh/gh
 
 #Casks
-install 1password
 install alfred
 install iterm2
 install visual-studio-code
