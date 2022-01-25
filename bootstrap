@@ -3,7 +3,7 @@
 set -o errexit
 set -o nounset
 
-readonly dir=~/.dotfiles # dotfiles directory
+readonly dir=~/dotfiles # dotfiles directory
 
 # list of files/folders to symlink in homedir
 files="zshrc gitconfig"

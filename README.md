@@ -3,8 +3,8 @@
 Congrats on setting up your new mac! Just try to execute the following commands:
 
 ```
-git clone git@github.com:danilo-barboza/dotfiles.git ~/.dotfiles
-cd ~/.dotfiles
+git clone git@github.com:danilo-barboza/dotfiles.git ~/dotfiles
+cd ~/dotfiles
 ./bootstrap
 ```
 
