@@ -1,5 +1,5 @@
 export ZSH=$HOME/.oh-my-zsh
-export DOTFILES=$HOME/.dotfiles/
+export DOTFILES=$HOME/dotfiles/
 
 ZSH_THEME="purish"
 
