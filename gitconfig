@@ -66,8 +66,9 @@
   svnr = svn rebase
   svnd = svn dcommit
   svnl = svn log --oneline --show-commit
-[include]
-  path = .gitconfig.user
+[user]
+    name = Danilo Barboza
+    email = 277004+danilo-barboza@users.noreply.github.com
 [push]
   default = simple
 [pull]
