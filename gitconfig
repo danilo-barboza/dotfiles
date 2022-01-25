@@ -1,3 +1,12 @@
+[user]
+    name = Danilo Barboza
+    email = 277004+danilo-barboza@users.noreply.github.com
+[push]
+  default = simple
+[pull]
+  rebase = false
+[core]
+	editor = vim
 [alias]
   # add
   a = add                           # add
@@ -66,10 +75,3 @@
   svnr = svn rebase
   svnd = svn dcommit
   svnl = svn log --oneline --show-commit
-[user]
-    name = Danilo Barboza
-    email = 277004+danilo-barboza@users.noreply.github.com
-[push]
-  default = simple
-[pull]
-  rebase = false
