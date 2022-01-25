@@ -21,3 +21,7 @@ alias z='fasd_cd -d'
 alias k='kubectl'
 alias kctx='kubectx'
 alias kns='kubens'
+
+#system
+alias sc='systemctl'
+alias jc='journalctl'
