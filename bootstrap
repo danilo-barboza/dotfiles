@@ -33,7 +33,7 @@ function install_zsh_syntax_highlighting() {
   local ZSH_SYNTAX_PLUGIN="$dir/zsh-custom/plugins/zsh-syntax-highlighting"
   if [[ ! -d $ZSH_SYNTAX_PLUGIN ]]; then
     echo "Installing zsh-syntax-highlighting plugin..."
-    git clone git://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_SYNTAX_PLUGIN
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_SYNTAX_PLUGIN
   else
     echo "$ZSH_SYNTAX_PLUGIN already exists!"
   fi
