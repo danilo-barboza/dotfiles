@@ -1,33 +1,23 @@
 #general install
 install zsh
 install git
-install ssh-copy-id
 install the_silver_searcher
 install tig
 install tree
 install wget
 install fasd
-install kubectl
-install kubectx
+# install kubectl
+# install kubectx
 install fzf
-install github/gh/gh
+# install github/gh/gh
 
 #Casks
-install alfred
+install raycast
 install iterm2
 install visual-studio-code
-install java
-install intellij-idea-ce
 install dropbox
-install evernote
-install zappy
 install firefox
-install google-chrome
 install slack
-install rescuetime
 install spotify
 install telegram
-install docker
-install signal
-install browserosaurus
 install rectangle
